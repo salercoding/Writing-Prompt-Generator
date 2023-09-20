@@ -10,8 +10,7 @@
 
 # production
 /build
-*.json
-*robots.txt
+
 
 # misc
 .DS_Store
