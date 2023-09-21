@@ -1,16 +1,13 @@
 //Genre
 const genreArray = [
-  "Comedy",
-  "Drama",
+  "Magical Realism",
   "Thriller",
-  "Action",
   "Mystery",
-  "Dramedy",
   "Fantasy",
   "Sci-Fi",
   "Dystopian",
-  "Utopian",
-  "Historical"
+  "Historical",
+  "Romance"
 ];
 
 //Setting

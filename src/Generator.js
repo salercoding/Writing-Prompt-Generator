@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { genreArray, settingArray, wordsArray, duplicates } from './Arrays';
+import { genreArray, settingArray, wordsArray } from './Arrays';
 
 export default function Button() {
   //Random Index
