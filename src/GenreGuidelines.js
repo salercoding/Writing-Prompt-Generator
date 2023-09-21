@@ -26,7 +26,7 @@ const guidelines =
     Historical <br/> 1. Takes place at least twenty years in the past. <br/> 2. Is based in a specific historical event. 
     <br/>
     <br/>
-    Romance <br/> 1. Depicts two people falling in love. They do not need to end up in a relationship. 2. Depicts just one person falling in love (unrequited love) 3. Admires beauty of a person or of nature.
+    Romance <br/> 1. Depicts two people falling in love. <br/> They do not need to end up in a relationship. <br/> 2. Depicts just one person falling in love (unrequited love) <br/> 3. Admires beauty of a person or of nature.
 
 </h5>;
 
@@ -41,13 +41,13 @@ export default function PopupGenreGuidelines() {
                 {
                     close => (
                         <div className='modal'>
-                            <div className='content'>
+                            <div className='modalContent'>
                                 {guidelines}
                             </div>
-                            <div>
+                            <div className="modalCloseButton">
                                 <button onClick=
                                     {() => close()}>
-                                        Close
+                                        X
                                 </button>
                             </div>
                         </div>
