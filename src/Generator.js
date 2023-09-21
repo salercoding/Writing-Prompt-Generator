@@ -42,11 +42,11 @@ export default function Button() {
       >
         {buttonText}
       </h3>
-      <h4>Genre: {genre}</h4>
+      <h4> Genre: {genre}</h4>
       <h4>Setting: {setting}</h4>
       <h4>
         Words: <br /> 1.{firstWord} <br /> 2.{secondWord} <br /> 3.{thirdWord}
       </h4>
-    </div>
+      </div>
   );
 }
