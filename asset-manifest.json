@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/writing-prompt-generator/static/css/main.68987c13.css",
+    "main.js": "/writing-prompt-generator/static/js/main.88ea3878.js",
+    "static/js/787.2cd59007.chunk.js": "/writing-prompt-generator/static/js/787.2cd59007.chunk.js",
+    "static/media/icon.png": "/writing-prompt-generator/static/media/icon.b856281e887e1012c2cf.png",
+    "index.html": "/writing-prompt-generator/index.html",
+    "main.68987c13.css.map": "/writing-prompt-generator/static/css/main.68987c13.css.map",
+    "main.88ea3878.js.map": "/writing-prompt-generator/static/js/main.88ea3878.js.map",
+    "787.2cd59007.chunk.js.map": "/writing-prompt-generator/static/js/787.2cd59007.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68987c13.css",
+    "static/js/main.88ea3878.js"
+  ]
+}
