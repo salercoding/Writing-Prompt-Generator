@@ -36,7 +36,7 @@ export default function PopupGenreGuidelines() {
     return (
         <div>
             <Popup trigger=
-                {<button> Click for genre guidelines </button>}
+                {<button> Click Here For Genre Guidelines </button>}
                 modal nested>
                 {
                     close => (

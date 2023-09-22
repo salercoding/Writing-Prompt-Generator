@@ -13,23 +13,23 @@ export default function Button() {
 
   const randomGenre = genreArray[randomIndex(genreArray)];
 
-  const [genre, setGenre] = useState("Random Genre");
+  const [genre, setGenre] = useState();
 
   const randomSetting = settingArray[randomIndex(settingArray)];
 
-  const [setting, setSetting] = useState("Random Setting");
+  const [setting, setSetting] = useState();
 
  
   //shuffle array to select random words
   let shuffledWords = wordsArray.sort(() => 0.5 - Math.random());
 
-  const [firstWord, setFirstWord] = useState("Random Word");
-  const [secondWord, setSecondWord] = useState("Random Word");
-  const [thirdWord, setThirdWord] = useState("Random Word");
+  const [firstWord, setFirstWord] = useState();
+  const [secondWord, setSecondWord] = useState();
+  const [thirdWord, setThirdWord] = useState();
 
   //Render
   return (
-    <div>
+    <div className="generatorButton">
       <h3
         onClick={() => {
           setButtonText("Try another prompt!")
@@ -42,11 +42,12 @@ export default function Button() {
       >
         {buttonText}
       </h3>
-      <h4> Genre: {genre}</h4>
-      <h4>Setting: {setting}</h4>
-      <h4>
-        Words: <br /> 1.{firstWord} <br /> 2.{secondWord} <br /> 3.{thirdWord}
+      <div className="generatorContent">
+      <h4> GENRE <br/> <br/> {genre}</h4>
+      <h4>SETTING<br/> <br/> {setting}</h4>
+      <h4> WORDS <br/> <br/> 1.{firstWord} <br /> 2.{secondWord} <br /> 3.{thirdWord}
       </h4>
+      </div>
       </div>
   );
 }

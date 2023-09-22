@@ -13,13 +13,14 @@ function App() {
       <h2>A creative challenge to battle writer's block</h2>
     </header>
        
-        <h3> Click the button below to generate a random genre, setting, and three words.</h3>
+        
         <div className="generator">
     <Button/>
     </div>
     <div className="instructions">
       <h5>
-        The rules: <br/> 
+        Directions <br/> <br/>
+        Write a short story using the writing prompt generator for inspiration. Try to stick to the following rules: <br/>
         1.  Your story must fulfill at least one of the elements of the given genre, as detailed in the genre guidelines. <br/>
         <PopupGenreGuidelines />
         2.  Your story must include the given setting, but you can choose to include a second setting if you wish. <br/>
