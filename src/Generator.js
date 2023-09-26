@@ -42,12 +42,18 @@ export default function Button() {
       >
         {buttonText}
       </h3>
-      <div className="generatorContent">
-      <h4> GENRE <br/> <br/> {genre}</h4>
-      <h4>SETTING<br/> <br/> {setting}</h4>
-      <h4> WORDS <br/> <br/> 1.{firstWord} <br /> 2.{secondWord} <br /> 3.{thirdWord}
-      </h4>
-      </div>
+    <div className="generatorContent">
+      <div className="genre">
+    <h4> <u>GENRE</u> <br/>  {genre}</h4>
+    </div>
+    <div className="setting">
+    <h4><u>SETTING</u><br/> {setting}</h4>
+    </div>
+    <div className="words">
+    <h4> <u>WORDS</u> <br/>  1.{firstWord} <br /> 2.{secondWord} <br /> 3.{thirdWord}
+    </h4>
+    </div>
+    </div>
       </div>
   );
 }

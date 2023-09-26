@@ -18,15 +18,15 @@ function App() {
     <Button/>
     </div>
     <div className="instructions">
-      <h5>
-        Directions <br/> <br/>
+      <p>
+      <u>Directions</u> <br/> 
         Write a short story using the writing prompt generator for inspiration. Try to stick to the following rules: <br/>
         1.  Your story must fulfill at least one of the elements of the given genre, as detailed in the genre guidelines. <br/>
         <PopupGenreGuidelines />
         2.  Your story must include the given setting, but you can choose to include a second setting if you wish. <br/>
         3.  You must include each of the given words at least once in your story. They can appear in any order. <br/>
         4.  Be creative and have fun!
-        </h5>
+        </p>
         </div>
     
     </div>
