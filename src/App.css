@@ -1,6 +1,8 @@
+/* Font */
 *{
   font-family: 'Courier Prime', monospace;
 }
+/* Title, subtitle, and logo*/
 .header {
   display: grid;
   grid-row: 2fr 1fr;
@@ -13,7 +15,6 @@ img {
   margin: 0px;
 }
 h1, h2 {
-  font-family: 'Courier Prime', monospace;
   color: #5E17EB;
   margin: 0px;
 }
@@ -23,23 +24,51 @@ h1{
 h2{
   font-size: 30px;
 }
-.instructions {
-  border: 5px solid #5E17EB;
-  padding: 5px 20px;
-  margin: 0px 70px 30px;
-  background-color: #e6d7ff;
-  line-height: 40px;
-}
-h3 {
+/* Generator button */
+
+.generatorButton h3 {
+display: inline-block;
+  margin: 10px;
+  padding: 30px;
   font-size: 30px;
   text-align: center;
+  border: 1px solid #5E17EB;
+  border-radius: 16px;
+  background-color: #e6d7ff;
+  color: #5E17EB;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
 }
+  
+.generatorButton h3:hover {
+  cursor: pointer;
+  box-shadow: 10px 2px 4px #5E17EB;
+}
+button {
+  font-size: 20px;
+}
+/* Generator content */
 h4 {
   font-size: 35px;
-  padding: 0px 300px;
+  padding: 30px;
 }
-h5 {
+.generatorContent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* Directions */
+p {
   font-size: 20px;
+}
+.instructions {
+  border: 5px solid #5E17EB;
+  margin: 20px;
+  padding: 5px;
+  background-color: #e6d7ff;
+  line-height: 40px;
 }
 .modal {
   position: fixed;
@@ -65,30 +94,7 @@ h5 {
 }
 .modalCloseButton {
     cursor: pointer;
-    position: absolute;
-    right: 350px;
-    top: 40px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
 }
-.generatorContent{
-  display: grid;
-  grid-template-columns: 370px 370px 370px;
-  text-align: center;
-  margin-left: -50px;
-}
-.generatorButton h3 {
-  appearance: button;
-  border: 1px solid #5E17EB;
-  border-radius: 16px;
-  margin: 40px 500px 0px;
-  background-color: #e6d7ff;
-  color: #5E17EB;
-  padding: 30px;
-}
-.generatorButton h3:hover {
-  cursor: pointer;
-  box-shadow: 10px 2px 4px #5E17EB;
-}
-button {
-  font-size: 20px;
-}
-
